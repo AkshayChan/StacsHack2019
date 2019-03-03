@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+<link href="https://afeld.github.io/emoji-css/emoji.css" rel="stylesheet">
+<html>
+    <head>
+        <title>Healthify</title>
+        <style>
+            body {
+                background-color: #000000;
+            }
+        </style>
+</head>
+<body>
+    <div class="header1">
+        <h1>Healthify</h1>
+    </div>
+    <div class="btn-group">
+        <form action="/heart" method="post">
+            <button type="submit"><i class="em em-heart"></i></button>
+        </form>
+        <form action="/brain" method="post">
+            <button><i class="em em-brain"></i></button>
+        </form>
+        <form action="/cancer" method="post">
+            <button><i class="em em-cancer"></i></button>
+        </form>
+        <form action="/diabetes" method="post">
+            <button><i class="em em-cookie"></i></button>
+        </form>
+    </div>
+</body>
+
+<style type = "text/css">
+    .header1 {
+        font-family: 'Lato', sans-serif;    
+        color: white;
+        position: fixed;
+        top: 30%;
+        left: 47%;
+    }
+    button {
+        font-family: 'Lato', sans-serif;
+        background-color: #555555; /* Black */
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        }
+    .btn-group {
+        position:fixed;
+        top: 40%;
+        left: 41%;
+    }
+    form {
+        float: left;
+        padding: 5px 2px;
+    }
+</style>
+</html>
